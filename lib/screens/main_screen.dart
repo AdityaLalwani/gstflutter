@@ -15,7 +15,7 @@ class _MainScreenState extends State<MainScreen> {
   var pages = [
     PageViewModel(
         title: "GSTR1",
-        body: "FOR QUARTERLY/MONTHLY GST CALCULATION",
+        body: "UPLOAD YOUR SALES REPORT HERE",
         image: Center(child: Image.asset("assets/k.png", height: 300.0)),
         decoration: const PageDecoration(
           //pageColor: Color.fromRGBO(47, 91, 145, 1.0),
@@ -39,7 +39,8 @@ class _MainScreenState extends State<MainScreen> {
           ),
           child: Center(
             child: FlatButton(
-              onPressed: () {},
+              onPressed: () {
+              },
               child: Text(
                 "PROCEED",
                 style: TextStyle(color: Colors.white, fontSize: 24,fontWeight: FontWeight.w900),
@@ -54,7 +55,7 @@ class _MainScreenState extends State<MainScreen> {
     PageViewModel(
       title: "GST3B",
       body:
-          "FOR EVERY 10TH DATE OF THE MONTH ",
+          "PAY YOUR GST HERE ",
       image: Center(
         child: Padding(
           padding: EdgeInsets.only(left: 30),
