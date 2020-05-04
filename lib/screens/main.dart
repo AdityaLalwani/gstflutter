@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:jsonfile/pages/custom_data_table.dart';
+import 'pages/custom_data_table.dart';
 import 'file_picker_demo.dart';
 import 'pages/simple_table.dart';
-
-void main() {
-  runApp(FilePickerDemo());
-}
 
 String contents;
 
