@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:jsonfile/file_picker_demo.dart' as picker;
+import 'package:gst/screens/file_picker_demo.dart' as picker;
 import 'package:flutter/material.dart';
 import 'package:json_table/json_table.dart';
 import 'package:rxdart/rxdart.dart';
