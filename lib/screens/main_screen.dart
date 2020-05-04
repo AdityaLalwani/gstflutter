@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'file_picker_demo.dart';
+
 
 class MainScreen extends StatefulWidget {
   @override
@@ -40,6 +42,8 @@ class _MainScreenState extends State<MainScreen> {
           child: Center(
             child: FlatButton(
               onPressed: () {
+                Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => FilePickerDemo()));
               },
               child: Text(
                 "PROCEED",
